@@ -1,7 +1,7 @@
 # Animalec
-An animals pedagogical app
+An animals Pedagogical app
 
-To start animalec:
+To start animalec with Experts and Sponsors entities:
 ```
 npm run serve
 ```
