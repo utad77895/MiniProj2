@@ -16,19 +16,12 @@
       <b-collapse id="nav-collapse" is-nav>
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto mr-5">
-          <b-nav-item :to="{ name: 'animals' }" 
+          <b-nav-item :to="{ name: 'animals' }" :disabled="!isUserLoggedIn"
             >ANIMAIS</b-nav-item
           >
-          <b-nav-item  
-            >SPONSORS</b-nav-item
-          >
-          <b-nav-item  
-            >EXPERTS</b-nav-item
-          >
-          <b-nav-item :to="{ name: 'quizzes' }" 
+          <b-nav-item :to="{ name: 'quizzes' }" :disabled="!isUserLoggedIn"
             >QUIZZES</b-nav-item
           >
-          
           <b-nav-item to="#contacts">CONTACTOS</b-nav-item>
           <div v-if="isUserLoggedIn">
             <div v-if="getUserType === 'user'">
