@@ -19,7 +19,12 @@
                 <option value="institucional">Institucional</option>
                 <option value="tematico">Temático</option>
                 <option value="promocional">Promocional</option>
+                <option value="outros">Outros</option>
               </select>
+            </div>
+            <div class="form-group">
+              <input v-model="prefanimal" type="text" class="form-control form-control-lg" id="txtAnimal"
+                placeholder="escreve o animal favorito" required />
             </div>
             <div class="form-group">
               <textarea id="txtDescription" class="form-control form-control-lg" placeholder="escreve descrição"
@@ -53,6 +58,7 @@ export default {
       name: "",
       category: "",
       description: "",
+      prefanimal:"",
       evaluation: [],
       comments: []
     };

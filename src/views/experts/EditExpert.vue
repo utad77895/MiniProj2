@@ -24,7 +24,8 @@
                 <option value="mamifero">MAMÍFERO</option>
                 <option value="peixe">PEIXE</option>
                 <option value="reptil">RÉPTIL</option>
-                <option value="reptil">GERAL</option>
+                <option value="geral">GERAL</option>
+                <option value="extintos">ESPÉCIES VIA EXTINÇÃO</option>
               </select>
             </div>
             <div class="form-group">
