@@ -1,20 +1,20 @@
 # Animalec
 An animals Pedagogical app
 
-To start animalec with Experts and Sponsors entities:
+Para iniciar a app Animalec com as novas entidades Patrocinadores e Especialistas:
 ```
 npm run serve
 ```
 
 # Using json-server 
-This project uses [json-server](https://github.com/typicode/json-server) to mock results for Sponsor and Expert entities.
+Este projeto utiliza [json-server](https://github.com/typicode/json-server) para persistir os dados dos Patrocinadores e Especialistas.
 
-To install json-server:
+Para instalar json-server:
 ```
 npm install -g json-server
 ```
 
-To start json-server:
+Iniciar o json-server:
 ```
 cd db
 json-server --watch db.json
